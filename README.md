@@ -9,6 +9,8 @@ Long-Range Grouping Transformer for Multi-View 3D Reconstruction
 
 # Citation
 
+If you find our code or paper useful in your research, please consider citing:
+
 
 # Futher Information
 
