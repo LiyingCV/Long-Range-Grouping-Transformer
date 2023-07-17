@@ -18,6 +18,17 @@ Long-Range Grouping Transformer for Multi-View 3D Reconstruction
 
 ## Datasets
 
+We use the [ShapeNet](https://www.shapenet.org/) and [Pix3D](http://pix3d.csail.mit.edu/) in our experiments, which are available below:
+
+- ShapeNet rendering images: http://cvgl.stanford.edu/data2/ShapeNetRendering.tgz
+- ShapeNet voxelized models: http://cvgl.stanford.edu/data2/ShapeNetVox32.tgz
+- Pix3D images & voxelized models: http://pix3d.csail.mit.edu/data/pix3d.zip
+
+## Get start
+
+### Training
+
+### Evaluation
 
 ## Citation
 
