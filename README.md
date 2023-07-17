@@ -7,24 +7,24 @@ Long-Range Grouping Transformer for Multi-View 3D Reconstruction
 
 <img src="./imgs/LRGT_highlight.png" width="900"/>
 
-# TODO
+## TODO
 - [ ] Release the code
 
-# Installation
+## Installation
 
 
-# Demo
+## Demo
 
 
-# Datasets
+## Datasets
 
 
-# Citation
+## Citation
 
 If you find our code or paper useful in your research, please consider citing:
 
 
-# Futher Information
+## Futher Information
 
 Please check out other works on multi-view reconstruction from our group:
 - [GARNet: Global-Aware Multi-View 3D Reconstruction Network and the Cost-Performance Tradeoff (Pattern Recognition 2023)](https://github.com/GaryZhu1996/GARNet)
