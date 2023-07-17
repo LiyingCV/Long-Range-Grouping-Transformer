@@ -14,7 +14,7 @@ Long-Range Grouping Transformer for Multi-View 3D Reconstruction
 
 
 ## Demo
-
+<img src="imgs/visualize.gif" width="900"/>
 
 ## Datasets
 
