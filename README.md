@@ -5,7 +5,7 @@ Long-Range Grouping Transformer for Multi-View 3D Reconstruction
 
 **Authors**: 
 
-<img src="./imgs/LRGT-Networks.png" width="900"/>
+<img src="./imgs/LRGT_highlight.png" width="900"/>
 
 # TODO
 - [ ] Release the code
