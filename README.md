@@ -8,6 +8,7 @@ Long-Range Grouping Transformer for Multi-View 3D Reconstruction
 <img src="./imgs/LRGT_highlight.png" width="900"/>
 
 ## TODO
+- [ ] Release the pretrain models
 - [ ] Release the code
 
 ## Installation
