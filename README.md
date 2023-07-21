@@ -5,7 +5,7 @@ Long-Range Grouping Transformer for Multi-View 3D Reconstruction
 
 **Authors**: Liying Yang, Zhenwei Zhu, Xuxin Lin, Jian Nong, Yanyan Liang.
 
-<img src="./imgs/LGA.gif" width="900"/>
+<img src="./imgs/LGA.gif" width="300"/>
 
 ## TODO
 - [ ] Release the pretrain models
