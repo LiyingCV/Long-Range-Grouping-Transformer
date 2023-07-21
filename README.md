@@ -3,7 +3,7 @@ Official PyTorch implementation of the paper:
 
 Long-Range Grouping Transformer for Multi-View 3D Reconstruction
 
-**Authors**: 
+**Authors**: Liying Yang, Zhenwei Zhu, Xuxin Lin, Jian Nong, Yanyan Liang.
 
 <img src="./imgs/LRGT_highlight.png" width="900"/>
 
