@@ -7,7 +7,10 @@ Long-Range Grouping Transformer for Multi-View 3D Reconstruction
 
 <img src="./imgs/LGA.gif" width="300"/> <img src="./imgs/SGA.gif" width="300"/>
 <img src="./imgs/FRA.gif" width="300"/> <img src="./imgs/TGA.gif" width="300"/>
+
+
 ## TODO
+The code and pretrain models are coming soon.
 - [ ] Release the pretrain models
 - [ ] Release the code
 
