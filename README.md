@@ -43,3 +43,4 @@ If you find our code or paper useful in your research, please consider citing:
 
 Please check out other works on multi-view reconstruction from our group:
 - [GARNet: Global-Aware Multi-View 3D Reconstruction Network and the Cost-Performance Tradeoff (Pattern Recognition 2023)](https://github.com/GaryZhu1996/GARNet)
+- [UMIFormer: Mining the Correlations between Similar Tokens for Multi-View 3D Reconstruction (ICCV 2023)](https://github.com/GaryZhu1996/UMIFormer)
