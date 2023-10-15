@@ -56,18 +56,20 @@ We use the [ShapeNet](https://www.shapenet.org/) and [Pix3D](http://pix3d.csail.
 ## Get start
 
 ### Training
-
+We provide the training script, which you can run as following: `sh train.sh`
 ### Evaluation
-
+We provide the testing script, which you can run as following: `sh test.sh`
 ## Citation
 
 If you find our code or paper useful in your research, please consider citing:
 ```BibTex
-@article{yang2023longrange,
-  title={Long-Range Grouping Transformer for Multi-View 3D Reconstruction}, 
-  author={Yang, Liying and Zhu, Zhenwei and Lin, Xuxin and Nong, Jian and Liang, Yanyan},
-  journal={arXiv preprint arXiv:2308.08724},
-  year={2023}
+@InProceedings{Yang_2023_ICCV,
+    author    = {Yang, Liying and Zhu, Zhenwei and Lin, Xuxin and Nong, Jian and Liang, Yanyan},
+    title     = {Long-Range Grouping Transformer for Multi-View 3D Reconstruction},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2023},
+    pages     = {18257-18267}
 }
 ```
 
