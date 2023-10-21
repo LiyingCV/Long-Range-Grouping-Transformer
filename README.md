@@ -42,10 +42,21 @@ The code and pretrain models are coming soon.
 ## Installation
 The environment was tested on Ubuntu 16.04.5 LTS and Ubuntu 20.04.5 LTS. We trained LRGT on 2 Tesla V100s for about 1 day and LRGT+ on 8 Tesla V100s for about 2.5 days.
 
+Clone the code repository
+```
+git clone https://github.com/LiyingCV/Long-Range-Grouping-Transformer.git
+```
+
 Create a new environment from ```environment.yml```
 ```
 conda env create -f environment.yml
 conda activate lrgt
+```
+Or install Python dependencies
+```
+cd Long-Range-Grouping-Transformer
+conda create -n lrgt python=3.6
+pip install -r requirements.txt
 ```
 
 ## Demo
