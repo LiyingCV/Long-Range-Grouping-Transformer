@@ -1,0 +1,11 @@
+numpy==1.19.5
+opencv-python==4.5.1.48
+easydict==1.10
+einops==0.4.1
+matplotlib==3.3.4
+pillow==8.4.0
+tensorboardx==2.6.2.2
+timm==0.4.5
+torch==1.7.1
+torchvision==0.8.2
+tqdm==4.64.1
