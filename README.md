@@ -40,7 +40,13 @@ The code and pretrain models are coming soon.
 - [ ] Release the code
 
 ## Installation
-The environment was tested on Ubuntu 16.04.5 LTS and Ubuntu 20.04.5 LTS. We trained LRGT on 2 Tesla V100s for about 1 day and LRGT+ on 8 Tesla V100s for about 3 days.
+The environment was tested on Ubuntu 16.04.5 LTS and Ubuntu 20.04.5 LTS. We trained LRGT on 2 Tesla V100s for about 1 day and LRGT+ on 8 Tesla V100s for about 2.5 days.
+
+Create a new environment from ```environment.yml```
+```
+conda env create -f environment.yml
+conda activate lrgt
+```
 
 ## Demo
 <img src="imgs/visualize.gif" width="900"/>
