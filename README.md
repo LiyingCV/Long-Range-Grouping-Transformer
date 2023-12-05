@@ -73,8 +73,9 @@ We use the [ShapeNet](https://www.shapenet.org/) and [Pix3D](http://pix3d.csail.
 ## Get start
 
 ### Training
-We provide the training script, which you can run as following: `sh train.sh`
-We use `torch.distributed` for multiple GPUs training, therefore, you can change `CUDA_VISIBLE_DEVICES` and `nproc_per_node` if you want to use more devices or only one device.
+We provide the training script, which you can run as following: `sh train.sh`.
+
+We use `torch.distributed` for multiple GPU training; therefore, you can change `CUDA_VISIBLE_DEVICES` and `nproc_per_node` to use more devices or only one device.
 ### Evaluation
 We provide the testing script, which you can run as following: `sh test.sh`
 ## Citation
