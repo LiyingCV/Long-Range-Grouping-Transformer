@@ -17,9 +17,9 @@ class Merger(torch.nn.Module):
             print('Merger: Similar Token Merger (STM)')
         
         self.blocks = torch.nn.ModuleList(
-            [STMBlock(dim=cfg.NETWORK.MERGER.TCFORMER.DIM, out_token_len=token_len,
-                     k=cfg.NETWORK.MERGER.TCFORMER.K, num_heads=cfg.NETWORK.MERGER.TCFORMER.NUM_HEAD)
-             for token_len in cfg.NETWORK.MERGER.TCFORMER.OUT_TOKEN_LENS])
+            [STMBlock(dim=cfg.NETWORK.MERGER.STM.DIM, out_token_len=token_len,
+                     k=cfg.NETWORK.MERGER.STM.K, num_heads=cfg.NETWORK.MERGER.STM.NUM_HEAD)
+             for token_len in cfg.NETWORK.MERGER.STM.OUT_TOKEN_LENS])
 
     def forward(self, feature):
         # feature [B, V, P, D]
