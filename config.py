@@ -25,7 +25,7 @@ __C.CONST.IMG_W = 224  # Image width for input
 __C.CONST.IMG_H = 224  # Image height for input
 __C.CONST.CROP_IMG_W = 128  # Dummy property for Pascal 3D
 __C.CONST.CROP_IMG_H = 128  # Dummy property for Pascal 3D
-__C.CONST.BATCH_SIZE_PER_GPU = 16
+__C.CONST.BATCH_SIZE_PER_GPU = 1
 __C.CONST.N_VIEWS_RENDERING = 3
 __C.CONST.NUM_WORKER = 20  # number of data workers
 __C.CONST.WEIGHTS = \
@@ -43,6 +43,8 @@ __C.NETWORK.ENCODER.VIT = edict()
 __C.NETWORK.ENCODER.VIT.MODEL_NAME = 'vit_deit_base_distilled_patch16_224' 
 __C.NETWORK.ENCODER.VIT.PRETRAINED = True
 # Decoder
+__C.NETWORK.DECODER = edict()
+__C.NETWORK.DECODER.VOXEL_SIZE = 32
 __C.NETWORK.DECODER.GROUP = edict()
 __C.NETWORK.DECODER.GROUP.SOFTMAX_DROPOUT = 0.4  
 __C.NETWORK.DECODER.GROUP.ATTENTION_MLP_DROPOUT = 0.
