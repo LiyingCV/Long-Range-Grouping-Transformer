@@ -236,7 +236,7 @@ class Decoder(torch.nn.Module):
             proj_drop=cfg.NETWORK.DECODER.GROUP.ATTENTION_MLP_DROPOUT)
 
         self.prepare = Transformer()
-        self.layer_norm = torch.nn.LayerNorm(cfg.NETWORK.MERGER.FC.DIM)
+        self.layer_norm = torch.nn.LayerNorm(cfg.NETWORK.DECODER.GROUP.DIM)
 
     def forward(self, context):
         # [B, P, D]
