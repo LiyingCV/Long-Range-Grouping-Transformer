@@ -46,9 +46,6 @@ def main():
         if not args.test:
             cfg.TRAIN.RESUME_TRAIN = True
 
-    assert not (cfg.TRAIN.UPDATE_N_VIEWS_RENDERING_PER_EPOCH and
-                cfg.TRAIN.UPDATE_N_VIEWS_RENDERING_PER_ITERATION)
-
     # Set GPU and distributed data parallel to use
     init_distributed_mode()
 
