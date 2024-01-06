@@ -16,7 +16,7 @@ from utils import logging
 from time import time
 
 import core.pipeline_train as pipeline
-from core.test import test_net, batch_test
+from core.test import test_net
 
 from models.encoder.encoder import Encoder 
 from models.merger.merger import Merger 
