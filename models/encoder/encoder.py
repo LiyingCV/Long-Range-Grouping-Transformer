@@ -24,8 +24,7 @@ class Encoder(torch.nn.Module):
 
         self.encoder = self.create_model(
             model_name=cfg.NETWORK.ENCODER.VIT.MODEL_NAME,
-            pretrained=cfg.NETWORK.ENCODER.VIT.PRETRAINED,
-            use_cls_token=cfg.NETWORK.ENCODER.VIT.USE_CLS_TOKEN
+            pretrained=cfg.NETWORK.ENCODER.VIT.PRETRAINED
         )
 
     def _create_vision_transformer(self, variant, distilled=False, pretrained=False, **kwargs):
@@ -156,7 +155,6 @@ class VisionTransformer(torch.nn.Module):
             drop_path_rate=0.,
             hybrid_backbone=None,
             norm_layer=None,
-            use_cls_token=True,
             patch_group=7,
             lga_layer=[5, 7, 9, 11]):
         """
@@ -192,7 +190,6 @@ class VisionTransformer(torch.nn.Module):
         num_patches = self.patch_embed.num_patches
 
         self.cls_token = torch.nn.Parameter(torch.zeros(1, 1, embed_dim))
-        self.use_cls_token = use_cls_token
         self.pos_embed = torch.nn.Parameter(torch.zeros(1, num_patches + 1, embed_dim))
         self.pos_drop = torch.nn.Dropout(p=drop_rate)
 
