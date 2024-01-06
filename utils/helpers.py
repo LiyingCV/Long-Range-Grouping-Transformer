@@ -1,8 +1,18 @@
 # -*- coding: utf-8 -*-
 #
 # Developed by Liying Yang <lyyang69@gmail.com>
+import os
 import numpy as np
 import torch
+
+def reduce_value(value):
+    world_size = int(os.environ['WORLD_SIZE'])
+    if world_size < 2:  # for single-GPU training
+        return value
+    with torch.no_grad():
+        torch.distributed.all_reduce(value)  
+        value /= world_size  
+    return value
 
 def var_or_cuda(x):
     if torch.cuda.is_available():
