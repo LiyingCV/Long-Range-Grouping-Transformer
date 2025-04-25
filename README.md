@@ -8,7 +8,8 @@ Long-Range Grouping Transformer for Multi-View 3D Reconstruction
 <img src="./imgs/LGA.gif" width="300"/> <img src="./imgs/SGA.gif" width="300"/>
 <img src="./imgs/FRA.gif" width="300"/> <img src="./imgs/TGA.gif" width="300"/>
 
-
+## News!!
+We share the pre-trained model of LRGT, which has been trained under 3-view input. [Download link](https://pan.baidu.com/s/16po1e4pxfQnd-_ppGH81Mg?pwd=ynq7) Extraction code: ynq7. Unlike the model in paper, we train the model using two NVIDIA 4090 GPUs. The performance is similar to the paper presented.
 
 ## Performance
 
