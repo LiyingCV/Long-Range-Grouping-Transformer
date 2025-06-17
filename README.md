@@ -37,7 +37,7 @@ We share the pre-trained model of LRGT, which has been trained under 3-view inpu
 ## TODO
 
 The code and pretrain models are coming soon.
-- [ ] Release the pretrain models
+- [x] Release the pretrain models
 - [x] Release the code
 
 ## Installation
